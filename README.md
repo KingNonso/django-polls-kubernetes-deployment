@@ -1,4 +1,16 @@
-# Django Tutorial Polls App (Dockerized)
+# Django Tutorial Polls App (Dockerized and Kubernetes-ready)
+
+Pull this repo. Then change the values in the following sample files:
+* yaml/polls-secrets
+* yaml/lets-encrypt-do-dns.yaml
+* yaml/polls-configmap.yaml
+* yaml/ingress_nginx_svc.yaml
+* yaml/prod_issuer.yaml
+* yaml/staging_issuer.yaml
+* yaml/polls-ingress.yaml
+* env
+
+
 
 This repository contains the complete code for the [Django](https://www.djangoproject.com/) project's [tutorial](https://docs.djangoproject.com/en/2.1/intro/tutorial01/) `polls` app. The code should mirror the code you've written at the end of [Part 7](https://docs.djangoproject.com/en/2.1/intro/tutorial07/). 
 
